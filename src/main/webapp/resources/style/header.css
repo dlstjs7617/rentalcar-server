@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+#top-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    margin: 5px;
+    width: 138px;
+    height : 80px;
+	background-image: url(../images/개인프로젝트_로고.png);
+    background-size: cover;
+}
+
+#top-main{
+    width: 800px;
+}
+
+#log-button{
+    display: flex;
+    justify-content: center;
+}
+nav > li{
+    line-height: 80px;
+}
+
+nav > li > ul{
+    width: 200px;
+    height: 80px;
+    text-align: center;
+}
+
+#login,
+#mypage,
+#logout{
+    margin: auto 5px;
+    width: 100px;
+    height: 30px;
+}
+
+nav > li{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mypage:hover,
+.reservation,
+.membership,
+.notice,
+#logo{
+    cursor: pointer;
+    transition: background-color 1s ease; 
+}
+
+.mypage:hover,
+.reservation:hover,
+.membership:hover,
+.notice:hover {
+    background-color: #baefff;
+}

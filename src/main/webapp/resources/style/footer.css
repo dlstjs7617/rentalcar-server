@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.company-info,
+.contact,
+.social-media {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+}
+
+.company-info h3,
+.contact h3,
+.social-media h3 {
+    font-size: 20px;
+}
+
+.company-info p,
+.contact p {
+    margin: 5px 0;
+}
+
+.social-media ul {
+    padding: 0;
+    list-style: none;
+}
+
+.social-media ul li {
+    margin-bottom: 5px;
+}
+
+.social-media ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}

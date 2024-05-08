@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+section{
+    display: grid;
+    grid-template :
+    "#mypage-text #mypage-text"
+    "#myAccount #myReservation"
+    "#Inquiry-details #Inquiry-details";
+}
+
+#mypage-text{
+    font-size: 30px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+}
+
+article{
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#myAccount-text,
+#myReservation-text,
+#Inquiry-details-text{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#myAccount,
+#myReservation {
+    
+    width: 600px;
+    height: 500px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 0 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#myAccount{
+    background-color: antiquewhite;
+    margin-right: 25px;
+}
+
+#myReservation{
+    background-color: aquamarine;
+}
+
+#Inquiry-details{
+    margin: 30px 0;
+    width: 1230px;
+    height: 300px;
+    background-color: bisque;
+}
+
+
+#myAccount-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#account-area {
+    display: flex;
+    flex-direction: column;
+}
+
+#account-area > div {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#edit-myAccount {
+    width: max-content;
+    margin-top: 20px;
+    cursor: pointer;
+    color: rgb(17, 0, 255);
+}
+
+#myReservation-title,
+.myReservation-ul,
+#Inquiry-details-title{
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px black;
+}

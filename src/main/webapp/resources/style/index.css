@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+#banner{
+    margin: auto;
+    height: 450px;
+    background-image: url(../images/brand_slide_4.png);
+    background-size: cover;
+}
+
+#ad-car{
+    margin: 20px;
+    height: 250px;
+    background-color: aqua;
+}
+
+#ad-title{
+    text-align: center;
+    font-size: 40px;
+}
+
+#ad-car-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ad-area{
+    cursor: pointer;
+}
+
+.ad-img{
+    width: 320px;
+    height: 160px;
+    background-image: url(/img/resize_차량이미지.png);
+    background-size: cover;
+}
+
+.ad-car-name,
+.ad-car-price{
+    text-align: center;
+}
+
+#move-button{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    background-color: rgb(128, 175, 240);
+}
+
+.move-button-area{
+    text-align: center;
+    line-height: 150px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+#row-price-car{
+    height: 500px;
+}

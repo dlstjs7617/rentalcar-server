@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@import url("reset-css.css");
+
+body{
+    display: grid;
+    width: 1200px;
+    margin: auto;
+    background-color: lightcyan;
+    grid-template-rows: 160px auto 200px;
+}
+
+header{
+    display: grid;
+    background-color: rgb(71, 254, 254);
+    grid-template-rows: 80px 80px;
+}
+
+#top-area{
+    background-color: aquamarine;
+}
+
+nav{
+    background-color: lightcyan;
+}
+
+section{
+    background-color: lightcoral;
+}
+footer{
+    background-color: gray;
+}
+
+.page-title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.page-border{
+    margin-top: 40px;
+}

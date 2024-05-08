@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+article{
+    display: flex;
+    margin: 50px auto;
+    width: 1200px;
+    height: 500px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+#car-area{
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    background-color: white;
+}
+
+.car-img{
+    margin: auto;
+    width: 480px;
+    height: 240px;
+    background-image: url(../images/480px360px차량이미지.png);
+    background-size: cover;
+}
+
+.car-brand,
+.car-name,
+.car-price{
+    width: 480px;
+    margin: 10px auto;
+}
+
+.car-brand{
+    font-size: 30px;
+}
+
+.car-name{
+    font-size: 25px;
+}
+
+.car-price{
+    font-size: 20px;
+}
+
+#reservation-right{
+    width: 500px;
+    height: 500px;
+    background-color: beige;
+}
