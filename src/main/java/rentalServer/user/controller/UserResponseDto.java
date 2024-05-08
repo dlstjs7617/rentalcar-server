@@ -1,34 +1,27 @@
-package user.controller;
+package rentalServer.user.controller;
 
-public class UserRequestDto {
+public class UserResponseDto {
 	private String id;
-	private String password;
 	private String name;
 	private String email;
 	private String telecom;
 	private String phone;
 	
-	public UserRequestDto() {
-		
-	}
-
-	public UserRequestDto(String id, String password, String name, String email, String telecom, String phone) {
+	public UserResponseDto(String id, String name, String email, String telecom, String phone) {
 		super();
 		this.id = id;
-		this.password = password;
 		this.name = name;
 		this.email = email;
 		this.telecom = telecom;
 		this.phone = phone;
 	}
-
-	public UserRequestDto(String id, String password, String name, String telecom, String phone) {
-		super();
-		this.id = id;
-		this.password = password;
-		this.name = name;
-		this.telecom = telecom;
-		this.phone = phone;
+	
+	public UserResponseDto(User user) {
+		this.id = user.getId();
+		this.name = user.getName();
+		this.email = user.getEmail();
+		this.telecom = user.getTelecom();
+		this.phone = user.getPhone();
 	}
 
 	public String getId() {
@@ -37,14 +30,6 @@ public class UserRequestDto {
 
 	public void setId(String id) {
 		this.id = id;
-	}
-
-	public String getPassword() {
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
 	}
 
 	public String getName() {

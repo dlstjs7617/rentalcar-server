@@ -1,4 +1,4 @@
-package user.controller;
+package rentalServer.user.controller;
 
 import java.sql.Timestamp;
 

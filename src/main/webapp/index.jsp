@@ -5,9 +5,9 @@
 <html>
 <head>
 <link rel="stylesheet" href="/resources/style/index.css">
-<script src="/resources/script/index.js"></script>
 </head>
 <c:import url="/header" />
+<script src="/resources/script/index.js"></script>
 <body>
 	<section>
         <article id="banner"></article>

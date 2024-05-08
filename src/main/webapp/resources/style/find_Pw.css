@@ -6,8 +6,7 @@
     font-weight: bold;
     font-size: 30px;
 }
-#container {
-    margin: auto;
+#find-article {
     min-height: 700px;
     width: 400px;
     margin: 50px auto;
@@ -22,15 +21,16 @@
 }
 
 #log-logo {
+    margin: auto;
     height: 194px;
     width: 366px;
     text-align: center;
-    background-image: url(../images/개인프로젝트_로고.png);
+    background-image: url(../images/logo.png);
     background-size: cover;
 }
 
 input[type="text"],
-input[type="password"] {
+select{
     width: calc(100% - 20px);
     padding: 10px;
     margin: 10px 0;
@@ -41,19 +41,6 @@ input[type="password"] {
 .error-msg {
     color: #ff0000;
     margin: 5px 0;
-}
-
-.link-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-#join,
-#findId,
-#findPw {
-    color: #007bff;
-    cursor: pointer;
 }
 
 #submit {
@@ -69,4 +56,8 @@ input[type="password"] {
 
 #submit:hover {
     background-color: #0056b3;
+}
+
+#result > p{
+	font-size: 30px;
 }

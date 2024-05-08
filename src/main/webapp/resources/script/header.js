@@ -1,13 +1,13 @@
 $(document).ready (() => {
     $("#logo").click(e => {
-        location.href="index.html";
+        location.href="index";
     });
 
     $(".mypage").click(e => {
-        location.href="mypage.html";
+        location.href="mypage";
     });
 
     $("#login").click(e =>{
-        location.href="login.html";
+        location.href="login";
     });
 });

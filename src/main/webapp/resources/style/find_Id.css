@@ -6,7 +6,7 @@
     font-weight: bold;
     font-size: 30px;
 }
-article {
+#find-article {
     min-height: 700px;
     width: 400px;
     margin: 50px auto;
@@ -25,7 +25,7 @@ article {
     height: 194px;
     width: 366px;
     text-align: center;
-    background-image: url(../images/개인프로젝트_로고.png);
+    background-image: url(../images/logo.png);
     background-size: cover;
 }
 
@@ -56,4 +56,8 @@ select{
 
 #submit:hover {
     background-color: #0056b3;
+}
+
+#result > p{
+	font-size: 30px;
 }

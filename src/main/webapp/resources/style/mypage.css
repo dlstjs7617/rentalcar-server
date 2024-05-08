@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-section{
+#container {
     display: grid;
     grid-template :
     "#mypage-text #mypage-text"
@@ -17,7 +17,7 @@ section{
     width: 200px;
 }
 
-article{
+.mypage-article{
     margin: auto;
     display: flex;
     justify-content: flex-start;

@@ -55,10 +55,14 @@ $(document).ready(() => {
 
     // vs코드용 테스트 이동처리
     $('#join').click(e => {
-        location.href="/join.html";
+        location.href="/join";
     });
 
-    $('#join').click(e => {
-        location.href="/find.html";
+    $('#findId').click(e => {
+        location.href="/find_Id";
+    });
+    
+    $('#findPw').click(e => {
+        location.href="/find_Pw";
     });
 });

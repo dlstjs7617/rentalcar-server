@@ -3,7 +3,7 @@
 #banner{
     margin: auto;
     height: 450px;
-    background-image: url(../images/brand_slide_4.png);
+    background-image: url(../images/4.png);
     background-size: cover;
 }
 
@@ -31,7 +31,7 @@
 .ad-img{
     width: 320px;
     height: 160px;
-    background-image: url(/img/resize_차량이미지.png);
+    background-image: url(../images/resize_carimg.png);
     background-size: cover;
 }
 
