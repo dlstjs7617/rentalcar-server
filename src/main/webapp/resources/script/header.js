@@ -1,6 +1,6 @@
 $(document).ready (() => {
     $("#logo").click(e => {
-        location.href="index";
+        location.href="/";
     });
 
     $(".mypage").click(e => {
@@ -10,4 +10,8 @@ $(document).ready (() => {
     $("#login").click(e =>{
         location.href="login";
     });
+    
+    $(".reservation").click(e =>{
+		location.href="rental_list";
+	})
 });

@@ -40,6 +40,7 @@
 					</div>
 				</div>
 				<div id="edit-myAccount">내정보 수정</div>
+				<div id="deleteAccount">회원탈퇴</div>
 			</div>
 			<div id="myReservation">
 				<div id="myReservation-text">예약정보</div>

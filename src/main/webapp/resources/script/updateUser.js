@@ -41,6 +41,7 @@ $(document).ready(() => {
 		}
 	});
 	
+	
 	$('#telecom').focusout(e => {
 		if($('#telecom').val() === null) {
 			$('#error-msg-telecom').show();
@@ -73,6 +74,7 @@ $(document).ready(() => {
 			}
 		}
 	});
+	
 	$('form').submit(e => {
 		e.preventDefault();
 		
@@ -82,26 +84,18 @@ $(document).ready(() => {
 		
 		const name = $('#name').val();
 		const telecom = $('#telecom').val();
+		console.log("telecom : ", telecom);
 		
 		const phone = $('#phone').val();
 		
 		// 유효성 검사 
 		let isValid = true;
 		
-		if(id === "") {
-			isValid = false;
-			$('#error-msg-id').show();
-			$('#id').css('border', 'solid 1px tomato');
-		}
+		
 		if(password === "") {
 			isValid = false;
 			$('#error-msg-password').show();
 			$('#password').css('border', 'solid 1px tomato');
-		}
-		if(name === "") {
-			isValid = false;
-			$('#error-msg-name').show();
-			$('#name').css('border', 'solid 1px tomato');
 		}
 		if(telecom === null) {
 			isValid = false;

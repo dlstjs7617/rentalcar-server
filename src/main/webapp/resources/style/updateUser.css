@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-#join-article {
+#update-article {
     width: 400px;
     margin: 50px auto;
     padding: 20px;
@@ -40,22 +40,6 @@ select {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-}
-
-#radio-container div {
-    width: 190px;
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-}
-
-#gender-label{
-    margin: auto;
-}
-
-#gender-man:checked ~ div > #gender-man-label, 
-#gender-woman:checked ~ div > #gender-woman-label{
-	color: #5356FF;
 }
 
 input[type="radio"]{

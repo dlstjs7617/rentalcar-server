@@ -4,6 +4,7 @@ import java.sql.Timestamp;
 
 public class User {
 	private String id;
+	private String password;
 	private String name;
 	private String email;
 	private String telecom;
@@ -22,9 +23,27 @@ public class User {
 		this.regDate = regDate;
 		this.modDate = modDate;
 	}
+	
+
+	public User(String id, String password, String name, String email, String telecom, String phone, Timestamp regDate,
+			Timestamp modDate) {
+		super();
+		this.id = id;
+		this.password = password;
+		this.name = name;
+		this.email = email;
+		this.telecom = telecom;
+		this.phone = phone;
+		this.regDate = regDate;
+		this.modDate = modDate;
+	}
 
 	public String getId() {
 		return id;
+	}
+
+	public String getPassword() {
+		return password;
 	}
 
 	public String getName() {
